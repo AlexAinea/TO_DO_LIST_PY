@@ -1,25 +1,297 @@
 <mxfile host="65bd71144e">
     <diagram id="2yCJRiejcp5FUtNlSrr_" name="Page-1">
-        <mxGraphModel dx="846" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="5057" dy="3235" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="LOGIN/SIGNUP PAGE:&lt;div&gt;USERNAME -&amp;nbsp;&lt;/div&gt;&lt;div&gt;PASSWORD -&lt;/div&gt;&lt;div&gt;LOGIN&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;SIGNUP&lt;/div&gt;&lt;div&gt;USERNAME-&lt;/div&gt;&lt;div&gt;PASSWORD-&lt;/div&gt;&lt;div&gt;RE ENTER PASSWORD-&lt;/div&gt;&lt;div&gt;SIGNUP&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="17" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="520" y="90" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="LOGIN/SIGNUP PAGE:&lt;div&gt;USERNAME -&amp;nbsp;&lt;/div&gt;&lt;div&gt;PASSWORD -&lt;/div&gt;&lt;div&gt;LOGIN&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;SIGNUP&lt;/div&gt;&lt;div&gt;USERNAME-&lt;/div&gt;&lt;div&gt;PASSWORD-&lt;/div&gt;&lt;div&gt;RE ENTER PASSWORD-&lt;/div&gt;&lt;div&gt;IMAGE-&lt;/div&gt;&lt;div&gt;SIGNUP&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry width="250" height="180" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2">
+                <mxCell id="3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="2" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="390" y="370" as="sourcePoint"/>
                         <mxPoint x="125" y="280" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="4" value="DATABASE(SQL)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="25" y="280" width="485" height="190" as="geometry">
+                <mxCell id="4" value="DATABASE(SQL)" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry y="520" width="485" height="190" as="geometry">
                         <mxRectangle x="25" y="280" width="140" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="7" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="85" y="308" width="50" height="30" as="geometry"/>
+                <mxCell id="7" value="task name" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="4" vertex="1">
+                    <mxGeometry x="-15" y="20" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="description" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="4">
+                    <mxGeometry x="55" y="20" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="start date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="4">
+                    <mxGeometry x="135" y="20" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="deadline" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="4">
+                    <mxGeometry x="207.5" y="20" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="priority" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="4">
+                    <mxGeometry x="275" y="20" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="12" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry y="280" width="480" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="username" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="12">
+                    <mxGeometry x="-10" y="20" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="PASSWORD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="12">
+                    <mxGeometry x="60" y="20" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="IMAGE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="12">
+                    <mxGeometry x="160" y="20" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" width="580" height="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" width="260" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="image" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" width="40" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="560" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="hide/show panel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="720" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="search page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="60" width="260" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="all tasks page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="160" width="260" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="todays tasks page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="210" width="260" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="completed tasks page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="260" width="260" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="420" width="590" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="search entry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="420" width="590" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="details of searched task" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="450" width="590" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="add task" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="110" width="260" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1150" width="510" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="actual task object" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1150" width="510" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="680" width="590" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="add task page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="680" width="590" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="task name:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="515" y="720" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="task description:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="740" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="start date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="780" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="deadline" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="810" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="priority" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="840" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="add task button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="860" width="180" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="task name" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1150" y="20" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="task description:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1150" y="50" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="start date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1410" y="20" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="deadline" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1410" y="50" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="priority" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1590" y="15" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="delete task button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1540" y="40" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="950" width="510" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="all tasks page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="950" width="510" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="980" width="510" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="980" width="510" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="task name" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="1000" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="task description:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="1030" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="start date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="1000" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="deadline" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="1030" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="priority" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="960" y="995" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="delete task button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="910" y="1020" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="1080" width="510" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="1080" width="510" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="task name" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="1100" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="task description:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="1130" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="start date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="1100" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="deadline" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="1130" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="priority" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="960" y="1095" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="delete task button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="910" y="1120" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="todays tasks page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="1210" width="510" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="1240" width="510" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="task name" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="1260" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="task description:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="1290" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="start date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="1260" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="deadline" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="1290" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="priority" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="960" y="1255" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="delete task button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="910" y="1280" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="1340" width="510" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="1340" width="510" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="task name" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="1360" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="task description:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="1390" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="start date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="1360" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="deadline" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="1390" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="priority" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="960" y="1355" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="delete task button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="910" y="1380" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="completed tasks page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="1480" width="510" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="1510" width="510" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="task name" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="1530" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="task description:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="1560" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="start date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="1530" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="deadline" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="1560" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="priority" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="960" y="1525" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="delete task button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="910" y="1550" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="1610" width="510" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="1610" width="510" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="task name" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="1630" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="task description:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="1660" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="start date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="1630" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="deadline" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="1660" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="priority" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="960" y="1625" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="delete task button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="910" y="1650" width="120" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
